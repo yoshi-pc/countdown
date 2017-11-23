@@ -47,6 +47,9 @@ html, body {
   display: inline-block;
   margin:30px 10px;
   text-align: center;
+  transition-property: all;
+  transition-duration: 1.2s;
+  transition-delay: .3s;
 }
 
 .countdown > div > span {
