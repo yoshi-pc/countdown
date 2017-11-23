@@ -1,21 +1,6 @@
 @charset "utf-8";
 /* basic */
-html, body, #myCarousel {
+html, body {
   height: 100vh;
   margin: 0;
-}
-/* Carousel */
-.carousel .item  > img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  overflow: hidden;
-  object-fit: cover;
-}
-#myCarousel .carousel-inner {
-  height: 100%;
-  height: 100%;
-}
-#myCarousel .carousel-inner .item {
-  height: 100%;
 }
