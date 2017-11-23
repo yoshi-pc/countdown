@@ -38,6 +38,26 @@ html, body {
   margin: 0;
 }
 
+#load_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loader {
+  font-family: "Raleway", "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif !important;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .countdown > div {
   width: 150px;
   height: 150px;
