@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* basic */
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -14,12 +13,16 @@
   src: local("Raleway Bold"), local("Raleway-Bold"), url("https://fonts.gstatic.com/s/raleway/v12/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2") format("woff2");
   unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-
-* {
-  font-family: "Raleway",sans-serif !important;
+@font-face {
+  font-family: "Anonymous Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/anonymouspro/v11/Zhfjj_gat3waL4JSju74ExEOS6Aq7hJAAidQNR3rgdU.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 h1 {
   font-size: 4em;
+  font-family: "Raleway",sans-serif !important;
 }
 html, body {
   height: 100vh;
@@ -34,11 +37,28 @@ html, body {
   padding: 0;
   display: inline-block;
   margin:30px 10px;
+  text-align: center;
 }
 
 .countdown > div > span {
   font-size: 18px;
+  margin: 0 auto;
 }
 .countdown > div > div {
   font-size: 70px;
+  font-family: "Anonymous Pro";
+}
+
+#location a {
+  color: rgba(255,0,0,.7);
+  text-decoration: none;
+}
+#location a:hover {
+  color: rgba(255,0,0,.7);
+  text-decoration: none;
+}
+
+.aqours {
+  color: rgba(0,160,234,1.0);
+  text-shadow: 3px 3px 5px #fff, -3px 3px 5px #fff, -3px -3px 5px #fff, 3px -3px 5px #fff;
 }
