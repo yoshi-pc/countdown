@@ -9,11 +9,6 @@ $(document).on('ready', function(){
     controller: false
   });
 });
-window.onload = function() {
-  $(function() {
-    $("html").fadeIn();
-  });
-}
 
 $(function() {
   setInterval(function() {
