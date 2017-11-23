@@ -1,7 +1,8 @@
 $(window).load(function () {
   ticktock();
-  $('#load_background').delay(700).fadeOut();
+  load_finish();
 });
+
 $(document).on('ready', function(){
   $('.crosscover').crosscover({
     inClass: 'fade-in',
@@ -16,11 +17,16 @@ $(document).on('ready', function(){
 
 $(function() {
   setInterval(function() {ticktock()},1000);
+  setTimeout("load_finish()",5000);
 });
+
+function load_finish() {
+  $('#load_background').delay(700).fadeOut();
+}
 
 function ticktock() {
   var now = new Date();
-  var goal = new Date(2017, 10, 23, 22, 14, 0);
+  var goal = new Date(2017, 11, 9, 18, 0, 0);
   var diff = goal.getTime() - now.getTime();
   if (diff < 0) {
     diff = Math.abs(diff);
