@@ -1,6 +1,44 @@
 @charset "utf-8";
 /* basic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url("https://fonts.gstatic.com/s/raleway/v12/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("https://fonts.gstatic.com/s/raleway/v12/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+  font-family: "Raleway",sans-serif !important;
+}
+h1 {
+  font-size: 4em;
+}
 html, body {
   height: 100vh;
   margin: 0;
+}
+
+.countdown > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid rgba(255,255,255,.5);
+  padding: 0;
+  display: inline-block;
+  margin:30px 10px;
+}
+
+.countdown > div > span {
+  font-size: 18px;
+}
+.countdown > div > div {
+  font-size: 70px;
 }
