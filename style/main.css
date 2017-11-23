@@ -20,9 +20,18 @@
   src: url("https://fonts.gstatic.com/s/anonymouspro/v11/Zhfjj_gat3waL4JSju74ExEOS6Aq7hJAAidQNR3rgdU.woff2") format("woff2");
   unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+h1, h2, h3 {
+  font-family: "Raleway", "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif !important;
+  margin: 40px auto;
+}
 h1 {
   font-size: 4em;
-  font-family: "Raleway",sans-serif !important;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
 }
 html, body {
   height: 100vh;
@@ -50,11 +59,13 @@ html, body {
 }
 
 #location a {
-  color: rgba(255,0,0,.7);
+  color: rgba(255,255,255,1.0);
   text-decoration: none;
+  font-size: 1.2em;
+  font-family: "Raleway", "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif !important;
 }
 #location a:hover {
-  color: rgba(255,0,0,.7);
+  color: rgba(255,255,255,1.0);
   text-decoration: none;
 }
 
