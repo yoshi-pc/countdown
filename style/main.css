@@ -60,5 +60,5 @@ html, body {
 
 .aqours {
   color: rgba(0,160,234,1.0);
-  text-shadow: 3px 3px 5px #fff, -3px 3px 5px #fff, -3px -3px 5px #fff, 3px -3px 5px #fff;
+  text-shadow: 1px 1px 0px rgba(0,100,180,1.0), 3px 3px 5px #fff, -3px 3px 5px #fff, -3px -3px 5px #fff, 3px -3px 5px #fff;
 }
